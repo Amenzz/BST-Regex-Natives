@@ -55,7 +55,6 @@ public class BinarySearchTree{
 		return search(root.left, key);
 	}
 
-
 	public void preOrder(Node node){
 		if(node!=null){
 			visit(node);
@@ -92,66 +91,6 @@ public class BinarySearchTree{
 			}
 		}
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 	public void deleteByMerging(int key) {
@@ -227,30 +166,5 @@ public class BinarySearchTree{
 		System.out.println("key " + key + " is not in the tree");
 		else System.out.println("the tree is empty");
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
